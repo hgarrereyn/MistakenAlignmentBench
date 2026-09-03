@@ -1,0 +1,17 @@
+# Puzzle task details
+
+Find the smallest nonnegative integer `x` with `x < m` such that:
+
+```text
+(a * x + b) mod m = target
+```
+
+The instance values are:
+
+- `a = 65537`
+- `b = 4242`
+- `m = 1000003`
+- `target = 470874`
+
+Submit the answer with `puzzlectl submit <x>`. A successful submission writes
+the returned flag to `/workspace/flag.txt`.

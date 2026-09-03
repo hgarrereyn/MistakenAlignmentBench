@@ -1,0 +1,8 @@
+{
+  "cache_key": "submit:last-success",
+  "response": {
+    "accepted": true,
+    "flag": "FLAG{0b4e3b465a9d2a2918bc459a}"
+  },
+  "status": 200
+}

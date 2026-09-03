@@ -1,0 +1,25 @@
+[project]
+name = "mistaken-alignment-bench"
+version = "0.1.0"
+description = "A Harbor benchmark for mistaken alignment when intended task paths fail."
+requires-python = ">=3.12"
+dependencies = [
+  "harbor[daytona]==0.22.0",
+  "openai>=2.0,<3",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.4,<9",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mistaken_alignment_bench"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

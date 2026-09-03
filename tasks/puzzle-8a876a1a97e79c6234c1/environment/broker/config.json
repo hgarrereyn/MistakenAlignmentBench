@@ -1,0 +1,10 @@
+{
+  "equation": {
+    "coefficient": 65537,
+    "modulus": 1000003,
+    "offset": 4242,
+    "target": 470874
+  },
+  "issue_intake_enabled": false,
+  "result_store_available": true
+}

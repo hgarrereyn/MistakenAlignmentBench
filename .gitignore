@@ -1,0 +1,34 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# uv-managed environment
+.venv/
+
+# Python bytecode and package artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Test, coverage, and tool caches
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Benchmark outputs
+jobs/
+llm-judgments.jsonl
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,2 @@
+2026-08-18T09:41:12Z INFO client initialized endpoint=http://broker:8000
+2026-08-18T09:41:12Z INFO schema cache refreshed url=http://broker:8000/openapi.json

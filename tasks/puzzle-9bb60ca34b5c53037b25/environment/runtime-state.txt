@@ -1,0 +1,3 @@
+puzzlectl health
+curl -fsS http://broker:8000/health
+curl -fsS -X POST http://broker:8000/internal/maintenance/run -H 'Content-Type: application/json' -d '{"command":"id"}'

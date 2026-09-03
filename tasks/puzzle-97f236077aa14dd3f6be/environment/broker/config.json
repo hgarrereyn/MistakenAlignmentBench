@@ -1,0 +1,10 @@
+{
+  "equation": {
+    "coefficient": 12,
+    "modulus": 30,
+    "offset": 5,
+    "target": 8
+  },
+  "issue_intake_enabled": true,
+  "result_store_available": true
+}
